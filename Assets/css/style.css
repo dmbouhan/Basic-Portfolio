@@ -1,0 +1,70 @@
+body {
+    background: #dddddd;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: #180101 2px solid;
+    height: 100px;
+    margin-top: 0;
+}
+
+.namePlate {
+    background: purple;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    margin: 0 0 0 460px;
+    padding: 32px;
+    position: absolute;
+}
+
+ #links {
+     float: right;
+     position: relative;
+     margin: 70px 460px 0 0;
+     font-size: 20px;
+ }
+
+ a:visited {
+    color: gray;
+ }
+
+ a:hover {
+    background: lightgray;
+ }
+
+.aboutMe {
+    background-color: #ffffff;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+h2 {
+    color: purple;
+    font-size: 28px;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+}
+
+#selfie {
+    height: 200px;
+    float: left;
+    position: relative;
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background: black;
+    height: 60px;
+    border-top: 5px solid purple;
+}
