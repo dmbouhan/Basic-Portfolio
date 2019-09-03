@@ -1,0 +1,92 @@
+body {
+    background-image: url("C:/Users/david/KU-Bootcamp-Work/Basic-Portfolio/Assets/images/gravel.png");
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: #180101 2px solid;
+    height: 100px;
+    margin-top: 0;
+}
+
+.namePlate {
+    background: purple;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    margin: 0 0 0 460px;
+    padding: 32px;
+    position: absolute;
+}
+
+#links {
+     float: right;
+     position: relative;
+     margin: 70px 460px 0 0;
+     font-size: 20px;
+ }
+
+a:visited {
+    color: gray;
+ }
+
+a:hover {
+    background: lightgray;
+ }
+
+ .portfolio {
+    background-color: #ffffff;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+h2 {
+    color: purple;
+    font-size: 28px;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    transform: rotate(90deg);
+    margin-top: 20px;
+}
+
+#img2 {
+    float: right;
+    margin-right: 500px;
+}
+
+#img4 {
+   float: right;
+   margin-right: 500px;
+}
+
+h3 {
+    background: purple;
+    color: white;
+    font-size: 1.25em;
+    max-width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background: black;
+    height: 60px;
+    border-top: 5px solid purple;
+    position: relative;
+    left: 0; right: 0; bottom: 0;
+    height: [footer-height];
+}

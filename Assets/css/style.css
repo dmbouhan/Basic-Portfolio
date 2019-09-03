@@ -1,5 +1,5 @@
 body {
-    background: #dddddd;
+    background-image: url("C:/Users/david/KU-Bootcamp-Work/Basic-Portfolio/Assets/images/gravel.png");
     margin: 0;
     padding: 0;
     font-family: monospace;
@@ -61,10 +61,16 @@ h2 {
     padding: 10px;
 }
 
+p {
+    line-height: 1.5em;
+}
 footer {
     color: white;
     text-align: center;
     background: black;
     height: 60px;
     border-top: 5px solid purple;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: [footer-height];
 }
